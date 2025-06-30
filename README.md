@@ -11,7 +11,8 @@
     còn với oda thì quy trình phát triển là : 
     - phân rã bài toán thành phần nghiệp vụ thành các phần nhỏ hơn,
     - mỗi phần đó là 1 service
-    - trên mỗi 1 service này thì các phần api được phát triển độc lập, có thể gắn kết với nhau thông qua các API dùng để liên kết linh động giữa các service 
+    - trên mỗi 1 service này thì các phần api được phát triển độc lập
+        có thể gắn kết với nhau thông qua các API dùng để liên kết linh động giữa các service 
     - tổ hợp các service này thì ta được 1 hệ thống microservice 
     
     điểm yếu của silo : 
@@ -19,12 +20,14 @@
     -> logic bị phức tạp khó bóc tách dẫn đến không làm riêng lẻ từng phần -> chậm thấy sản phẩm cuối
     
     Ứng dụng trong kiến trúc ODA:
-    ứng dụng thay vì được thiết kế theo chức năng thì ODA được cấu thành từ các giải pháp, mỗi giải pháp được xây dựng bằng cách tổ hợp lại các thành phần liên quan
+    ứng dụng thay vì được thiết kế theo chức năng thì ODA được cấu thành từ các giải pháp
+         mỗi giải pháp được xây dựng bằng cách tổ hợp lại các thành phần liên quan
     
     mỗi thành phẩn ở đây là 1 microservice triển khai 1 nhóm nghiệp vụ được định nghĩa trong eTom
     Vậy eTom là gì ? 
     eTOM  (enhanced Telecom Operations Map) trong kiến trúc Open Digital Architecture (ODA) 
-    - là một mô hình tham chiếu chuẩn hóa, được sử dụng rộng rãi trong ngành viễn thông để mô tả và quản lý các quy trình nghiệp vụ. Nó giúp tổ chức viễn thông thiết kế, triển khai và cải tiến các hoạt động vận hành hiệu quả hơn.
+    - là một mô hình tham chiếu chuẩn hóa, được sử dụng rộng rãi trong ngành viễn thông để mô tả và quản lý các quy trình nghiệp vụ.
+         Nó giúp tổ chức viễn thông thiết kế, triển khai và cải tiến các hoạt động vận hành hiệu quả hơn.
         - eTom ra đời năm 2003
         - để chuẩn hoá quy trình vận hành doanh nghiệp viễn thông 
         - cách triển khai :
